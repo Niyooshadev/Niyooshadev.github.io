@@ -1,2 +1,2 @@
 # github.io
-I’m working on a computer vision project using Convolutional Neural Networks (CNNs) to analyze and classify various types of images. The aim is to apply deep learning techniques to solve real-world problems in image recognition and analysis.
+I specialize in computer vision and am currently leading an innovative project that leverages Convolutional Neural Networks (CNNs) to analyze and classify a wide range of images. By harnessing cutting-edge deep learning techniques, I am creating solutions that solve real-world challenges in image recognition and analysis, driving efficiency, accuracy, and transformative results across industries.
