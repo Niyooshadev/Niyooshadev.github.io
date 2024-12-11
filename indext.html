@@ -6,81 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Your Professional Website</title>
-
-    <!-- Google Fonts for typography -->
+    
+    <!-- Google Fonts for better typography -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
+    
     <style>
-        /* Basic reset */
+        /* Reset default margin and padding */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        /* Basic styles */
         body {
             font-family: 'Roboto', sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f8f9fa;
+            color: #343a40;
         }
 
-        /* Header section */
+        h1, h2 {
+            font-weight: 500;
+        }
+
+        /* Header styles */
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
+            background-color: #343a40;
+            color: white;
             text-align: center;
+            padding: 50px 0;
         }
 
         header h1 {
             font-size: 3rem;
+            margin-bottom: 10px;
         }
 
-        /* Navigation bar */
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation bar styles */
         nav {
-            background-color: #444;
+            background-color: #007bff;
+            padding: 15px 0;
             text-align: center;
-            padding: 10px 0;
         }
 
         nav a {
-            color: #fff;
+            color: white;
             text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 10px;
+            margin: 0 15px;
             font-weight: 500;
         }
 
         nav a:hover {
-            background-color: #555;
-            border-radius: 4px;
+            background-color: #0056b3;
+            padding: 10px 15px;
+            border-radius: 5px;
         }
 
         /* Main content section */
-        .content {
+        .main-content {
             padding: 50px 20px;
             text-align: center;
         }
 
-        .content h2 {
+        .main-content h2 {
             font-size: 2.5rem;
-            color: #333;
+            margin-bottom: 20px;
         }
 
-        .content p {
+        .main-content p {
             font-size: 1.2rem;
-            color: #666;
+            color: #6c757d;
             max-width: 800px;
-            margin: 20px auto;
+            margin: 0 auto 30px;
         }
 
-        /* Footer section */
+        /* Footer styles */
         footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
+            background-color: #343a40;
+            color: white;
             text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
         }
 
         footer p {
@@ -93,23 +104,27 @@
 
     <!-- Header Section -->
     <header>
-        <h1>Welcome to Niyoosha's website</h1>
-        <p>Deep learning solution for your computer vision projects</p>
+        <h1>Welcome to My Professional Website</h1>
+        <p>Showcasing My Projects, Portfolio, and More!</p>
     </header>
 
     <!-- Navigation Bar -->
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <!-- Main Content -->
-    <div class="content">
-        <h2>About This Website</h2>
-        <p>Welcome to your newly designed website powered by GitHub Pages. This is a basic layout you can start with. You can customize it to fit your needs, adding more sections and content as you go.</p>
-        <p>Whether you're building a personal blog, portfolio, or business website, GitHub Pages is a great platform to get started with hosting your content for free. Learn how to use version control, create a professional site, and maintain it easily through GitHub.</p>
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <h2 id="about">About Me</h2>
+        <p>Hello! I'm a passionate developer and designer. On this website, I share my latest projects, portfolio, and other personal content. Feel free to explore and learn more about my work.</p>
+        
+        <h2 id="projects">My Projects</h2>
+        <p>Here you can find some of the most interesting projects I've worked on. From web apps to mobile applications, I've built a variety of things using modern technologies.</p>
+
+        <h2 id="contact">Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me on my <a href="mailto:your-email@example.com">email</a>.</p>
     </div>
 
     <!-- Footer Section -->
